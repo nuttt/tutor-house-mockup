@@ -1,0 +1,115 @@
+/* ----- container -----*/
+body > .container {
+    -webkit-box-shadow:  0px -20px 20px 5px rgba(0, 0, 0, 0.3);
+    box-shadow:  0px -20px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+/*------- carousal -----*/
+#myCarousel {
+    margin: 0;
+}
+
+.carousel-indicators {
+    top: 237px;
+}
+
+.carousel-indicators li:hover{
+    cursor: pointer;
+}
+
+/*------ tutor login -----*/
+
+#tutor-login-wrapper {
+    height: 150px;
+    padding-top: 100px;
+}
+
+#tutor-login label {
+    width: 70px;
+}
+
+#tutor-login input {
+    width: 175px;
+}
+/* ---- nav ---- */
+
+#nav {
+    padding: 15px 10px 15px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#nav li {
+    height: 35px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    webkit-transition: all 0.1s ;
+    -moz-transition: all 0.1s ;
+    -ms-transition: all 0.1s ;
+    -o-transition: all 0.1s ;
+    transition: all 0.1s ;
+    width: 136px;
+
+}
+
+#nav li.nav1{
+    background-color: #B13039;
+}
+
+#nav li.nav2{
+    background-color: #D1663C;
+}
+
+#nav li.nav3{
+    background-color: #BDC618;
+}
+
+#nav li.nav4{
+    background-color: #eabb5e;
+}
+
+#nav li.nav5{
+    background-color: #B2D6CD;
+}
+
+#nav li.nav6{
+    background-color: #EC86C6;
+}
+
+#nav li:hover{
+    opacity: 0.7;
+}
+
+#nav li a{
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+}
+
+#nav li a:hover{
+    background: none;
+}
+
+
+/*----- Siderbar -------*/
+
+#sidebar ul {
+    margin-left: 5px;
+    list-style-type: none;
+}
+
+#sidebar .widget h2 {
+    background-color: #e0d7b4;
+    font-size: 18px;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    color: #676353;
+}
